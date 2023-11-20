@@ -3,11 +3,11 @@ import React from 'react';
 function Contact() {
    return (
         <div>
-            <h1 className="flex items-center justify-center text-center pt-10 text-3xl md:text-4xl mb-1 md:mb-3 font-bold">Contact</h1>
-            <div className="flex flex-col mt-6 mb-10 mx-auto">
+            <h1 className="flex items-center justify-center text-center pt-10 mx-12 text-3xl md:text-4xl mb-1 md:mb-3 font-bold">Contact</h1>
+            <div className="flex flex-col mt-6 mb-10 mx-auto px-8">
                 <div className="flex justify-center items-center">
                     <form
-                        action="https://getform.io/f/(customSlugHere)"
+                        action="https://getform.io/f/4027dad7-fbc8-4c02-831f-dbee704e81ba"
                         method="POST"
                         className="flex flex-col w-full mx-20 md:max-w-2xl mx-auto"
                     >
@@ -30,7 +30,7 @@ function Contact() {
                         className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
                     />
                     <button
-                        type="button"
+                        type="submit"
                         className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-500 to-pink-500 drop-shadow-md hover:stroke-white"
                     >
                         Send

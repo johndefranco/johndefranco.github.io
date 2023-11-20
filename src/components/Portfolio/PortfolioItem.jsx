@@ -2,7 +2,7 @@ import React from 'react';
 
 function PortfolioItem({title, imgUrl, stack, onClick}) {
     return (
-        <div className="border-2 border-stone-900 rounded-md overflow-hidden">
+        <div className="border-2 border-stone-900 rounded-md overflow-hidden transition ease-in-out delay-150 hover:scale-105">
             <img src={imgUrl} 
             alt="portfolio" 
             className="block mx-auto h-44 md:h-52 object-cover cursor-pointer"

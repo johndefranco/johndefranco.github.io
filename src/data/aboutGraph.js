@@ -6,7 +6,12 @@ export default [
 
     {
         language: 'C',
-        percent: 60,
+        percent: 80,
+    },
+
+    {
+        language: 'Python',
+        percent: 70,
     },
 
     {
@@ -16,6 +21,6 @@ export default [
 
     {
         language: 'Javascript',
-        percent: 50,
+        percent: 60,
     }
 ]

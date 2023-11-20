@@ -4,7 +4,7 @@ import AboutGraphItem from './AboutGraphItem';
 
 function AboutGraph() {
     return (
-        <div className="flex flex-col gap-1 md:items-center justify-center">
+        <div className="flex flex-col gap-1 md:items-center justify-center pb-12">
              {aboutGraph.map(project => (
                  <AboutGraphItem 
                      language = {project.language}
