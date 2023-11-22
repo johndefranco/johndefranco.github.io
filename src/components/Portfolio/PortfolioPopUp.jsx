@@ -14,7 +14,7 @@ function PortfolioPopUp({ visible, title, imgUrl, stack, description, link}) {
         <h3 className="text-xl md:text-2xl mb-2 px-4 pt-4 md:mb-3 font-semibold">{title}</h3>
         <a href={link} target="_blank" rel="noopener noreferrer">
           <img
-            src="public/assets/github-mark.png"
+            src="assets/github-mark.png"
             alt="Github"
             className="block mx-auto h-5 md:h-6 object-cover cursor-pointer"
           />
